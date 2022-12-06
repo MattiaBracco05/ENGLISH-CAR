@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+    <!-- HTML:5 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The English Automotive Evolution</title>
+</head>
+
+<body>
+    <div class="container-fluid carBackground">
+
+        <!-- INIZIO DELLA NAVBAR -->
+        <div class="row fixed-top coloreNav">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark coloreNav">
+                    <a class="navbar-brand text-white">The English Automotive Evolution</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="./index.html">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./history.html">History</a></li>
+                            <li class="nav-item active"><a class="nav-link">Car Manufacturers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./supercar.html">Supercar</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./text.html">Text</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- FINE NAVBAR -->
+
+        <!-- IMG & TEXT ~ Factory -->
+        <div class="row text-white marginCar">
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6 mt-3"><img src="./img/fabbrica.jpg" width="100%" alt="Factory"></div>
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6 textTitle mt-3">
+                <p>
+                    Let's discover together some of the most famous and popular British car manufacturers.
+                </p>
+            </div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- Title: City Cars -->
+        <div class="row mt-1">
+            <div class="col-12 titleCar">City Cars</div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- IMG ~ Loghi City Car -->
+        <div class="row mt-1">
+            <div class="col-4 offset-4"><img src="./img/logo_mini.png" width="90%" alt="Logo Mini"></div>
+        </div>
+
+        <!-- PHOTOGALLERY & TEXT ~ Sport Cars -->
+        <div class="row mt-1">
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6">
+                <!-- PHOTO GALLERY -->
+                <div id="city" class="carousel slide" data-ride="carousel">
+
+                    <!-- INDICATOR -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#city" data-slide-to="0" class="active"></li>
+                        <li data-target="#city" data-slide-to="1"></li>
+                        <li data-target="#city" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- PHOTO -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/mini_car_1.jpg" width="100%" alt="City 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/mini_car_2.jpg" width="100%" alt="City 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/mini_car_3.jpg" width="100%" alt="City 3">
+                        </div>
+                    </div>
+
+                    <!-- ARROW -->
+                    <a class="carousel-control-prev" href="#city" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#city" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6 textHistory">
+                <p>
+                    The Mini is a British car manufacturer (subsidiary of the German BMW group since the mid 90s) The Mini is a small car suitable for city life with 3 or 5 doors with the optional convertible. There are also the "Cooper SE" (full electric) and "Cooper S"
+                    models for lovers of sport driving where around 180 HP are available on a 1300 kg car.
+                </p>
+            </div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- Title: Sport Cars -->
+        <div class="row mt-1">
+            <div class="col-12 titleCar">Sport Cars</div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- IMG ~ Loghi Sport Cars -->
+        <div class="row mt-1">
+            <div class="col-4"><img src="./img/logo_jaguar.png" width="90%" alt="Logo Jaguar"></div>
+            <div class="col-4"><img src="./img/logo_lotus.png" width="90%" alt="Logo Lotus"></div>
+            <div class="col-4"><img src="./img/logo_mclaren.png" width="90%" alt="Logo McLaren"></div>
+        </div>
+
+        <!-- PHOTOGALLERY & TEXT ~ Sport Cars -->
+        <div class="row mt-1">
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6">
+                <!-- PHOTO GALLERY -->
+                <div id="sport" class="carousel slide" data-ride="carousel">
+
+                    <!-- INDICATOR -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#sport" data-slide-to="0" class="active"></li>
+                        <li data-target="#sport" data-slide-to="1"></li>
+                        <li data-target="#sport" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- PHOTO -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/jaguar_car.jpg" width="100%" alt="Sport 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/lotus_car.jpg" width="100%" alt="Sport 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/mclaren_car.jpg" width="100%" alt="Sport 3">
+                        </div>
+                    </div>
+
+                    <!-- ARROW -->
+                    <a class="carousel-control-prev" href="#sport" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#sport" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6 textHistory">
+                <p>
+                    As for sports cars produced by British car manufacturers, the best known brands are Jaguar, Lotus and McLaren.
+                    </br>"Jaguar Land Rover" is a British automotive multinational based in Coventry, West Midlands, in 2008 it was bought by Tata Motors together with Ford.
+                    </br>Lotus is headquartered in a former air base near Norwich, following the financial exposures due to the agreement entered into with the De Lorean Motor Company for the construction of the DMC-12, in 1986 l company was acquired
+                    by General Motors.
+                    </br>"McLaren Automotive" began producing the Mercedes-Benz SLR McLaren on behalf of Mercedes-Benz, later in 2010 the company declared itself independent and the following year began producing the McLaren MP4-12C, starting a road production
+                    as well as that for F1.
+                </p>
+            </div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- Title: Luxury Cars -->
+        <div class="row mt-1">
+            <div class="col-12 titleCar">Luxury Cars</div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- IMG ~ Loghi Luxury Cars -->
+        <div class="row mt-1">
+            <div class="col-4"><img src="./img/logo_aston_martin.png" width="90%" alt="Logo Aston Martin"></div>
+            <div class="col-4"><img src="./img/logo_bentley.png" width="90%" alt="Logo Bentely"></div>
+            <div class="col-4"><img src="./img/logo_rolls_royce.png" width="90%" alt="Logo Rolls Royce"></div>
+        </div>
+
+        <!-- PHOTOGALLERY & TEXT ~ Luxury Cars -->
+        <div class="row mt-1">
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6">
+                <!-- PHOTO GALLERY -->
+                <div id="luxury" class="carousel slide" data-ride="carousel">
+
+                    <!-- INDICATOR -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#luxury" data-slide-to="0" class="active"></li>
+                        <li data-target="#luxury" data-slide-to="1"></li>
+                        <li data-target="#luxury" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- PHOTO -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/aston_martin_car.jpg" width="100%" alt="Luxury 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/bentley_car.jpg" width="100%" alt="Luxury 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/rolls_royce_car.jpg" width="100%" alt="Luxury 3">
+                        </div>
+                    </div>
+
+                    <!-- ARROW -->
+                    <a class="carousel-control-prev" href="#luxury" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#luxury" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-xs-12, col-sm-12, col-md-6, col-lg-6, col-xl-6 textHistory">
+                <p>
+                    Aston Martin is a British car manufacturer born in the early 1900s with the name "Bamford & Martin" then changed to "Aston Martin Ltd" and finally to "Aston Martin Lagonda Limited". The small company produces Gran Turismo made with artisanal care.
+                    </br>The Bentley is the main supplier of the British family and has won the famous "24 Hours of Le Mans" 6 times. The Bentley was bought by the competitor Rolls Royce who made it his sub-brand for about 60 years, starting from '98
+                    it is part of the Volkswagen group.
+                    </br>The "Rolls Royce Motor Cars Limited" has always been Bentley's main rival, with the new millennium the Rolls Royce brand became part of the BMW group.
+                </p>
+            </div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- Title: Land Rover Vs Range Rover -->
+        <div class="row mt-1">
+            <div class="col-12 titleCar">Land Rover Vs Range Rover</div>
+        </div>
+
+        <!-- LINEA PER DIVIDERE -->
+        <div class="row mt-3 line"></div>
+
+        <!-- IMG ~ Land Rover Vs Range Rover -->
+        <div class="row mt-1">
+            <div class="col-4 offset-2"><img src="./img/logo_land_rover.png" width="70%" alt="Land Rover"></div>
+            <div class="col-4"><img src="./img/logo_range.png" width="70%" alt="Range Rover"></div>
+        </div>
+
+        <!-- TEXT ~ Land Rover vs Range Rover -->
+        <div class="row mt-1">
+            <div class="col-12 textCar">
+                <p>
+                    You have probably already heard of Land Rover and Rage Rover ... contrary to what many think, these 2 types of SUVs are part of the same car manufacturer: the "Land Rover". A "Range Rover" is nothing more than a specific model of "Land Rover" where its
+                    full name would be "Land Rover Range Rover", just like the name "Mustang" is short for "Ford Mustang".
+                    </br>Range Rover is also the name of a Land Rover sub-category consisting of 4 unique SUVs (Range Rover, Range Rover Sport, Range Rover Velar and Range Rover Evoque).
+                </p>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row coloreNav">
+            <div class="col"><a class="footer-button" href="./index.html">Home</a></div>
+            <div class="col"><a class="footer-button" href="./history.html">History</a></div>
+            <div class="col"><a class="footer-button" href="./supercar.html">Supercar</a></div>
+            <div class="col"><a class="footer-button" href="./text.html">Text</a></div>
+            <div class="col-12 footerText">The English Automotive Evolution</div>
+            <div class="col-12 footerName">Barra · Bracco · Minetti</div>
+        </div>
+
+    </div>
+
+    <!-- QUESTO VA SEMPRE AL FONDO ! -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
