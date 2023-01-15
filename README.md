@@ -1,6 +1,6 @@
 # SITO ENGLISH CAR
 
-Sito realizzato per un'esposizione orale di inglese
+Sito realizzato per un'esposizione orale di inglese su un argomento a scelta
 
 URL del sito: https://mattiabracco05.github.io/ENGLISH-CAR/
 
